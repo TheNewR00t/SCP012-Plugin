@@ -1,13 +1,7 @@
 ﻿using Exiled.API.Features;
 using UnityEngine;
-using Servere = Exiled.Events.Handlers.Server;
 using System.Linq;
-using MapEditorReborn.API.Features;
-using Exiled.API.Enums;
-using Unity.Jobs.LowLevel.Unsafe;
 using MapEditorReborn.Events.EventArgs;
-using Org.BouncyCastle.Crypto.IO;
-using MapEditorReborn.Events.Handlers;
 
 namespace AddMoreCodeToPlayer
 {
@@ -33,7 +27,7 @@ namespace AddMoreCodeToPlayer
 
             if (ev.Schematic.Name == "Scp012")
             {
-                Log.Debug($"Schematic {ev.Schematic.Name} ha sido generado. Añadiendo componentes...");
+                Log.Debug($"Schematic {ev.Schematic.Name} has been generated");
 
                 // Agregar componentes a los bloques del schematic
                 var block = ev.Schematic.AttachedBlocks.FirstOrDefault(b => b.name == "Collaider");
