@@ -5,7 +5,7 @@ Following initial investigations, multiple test subjects were allowed access to 
 
 
 # Plugin installation
-You need [MapEditoReborn]<https://github.com/Michal78900/MapEditorReborn> last version and the plugin, put the plugin and MapEditorReborn in the EXILED plugin folder, start the server, put the Scp012.json in the MapEditorReborn/Schematics folder
+You need [MapEditoReborn](https://github.com/Michal78900/MapEditorReborn) last version and the plugin, put the plugin and MapEditorReborn in the EXILED plugin folder, start the server, put the Scp012.json in the MapEditorReborn/Schematics folder
 # Plugin installation 2
 Place the schematic with the command mp cr "Scp012" with capital letters, then place the command "mp save <something>" and next put the map in the config of MapEditorReborn like the photo
 
@@ -21,6 +21,12 @@ s_c_p012:
   atraction: 0.100000001
 ```
 ![image](https://github.com/user-attachments/assets/754ed204-d13a-4d19-9a09-6c7d7792bd52)
+
 # How to create your own Scp 012 Schematic
-  1. Download [Unity Hub](https://unity.com/es/unity-hub)
-  2. Download [SL-CustomObjects]<https://github.com/Michal78900/SL-CustomObjects/releases>
+  1. Download [Unity Hub](https://unity.com/es/unity-hub).
+  2. Download [SL-CustomObjects](https://github.com/Michal78900/SL-CustomObjects/releases).
+  3. Put the [SL-CustomObjects](https://github.com/Michal78900/SL-CustomObjects/releases) in Unity Hub.
+  4. Make a empty Object.
+  5. Change the name of the object to Scp012 (Need the exact same name, or the plugin won't work).
+  6. Add the 'schematic' code to the object and create SCP-012.
+  7. You need 2 cylinders named Collaider and KillZone (in uppercase letters).
